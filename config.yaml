@@ -1,0 +1,61 @@
+baseURL: https://4lch3mis7.github.io/
+languageCode: en-us
+title: 4lch3mis7
+theme: ["PaperMod"]
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 1
+    - name: Posts
+      url: posts/
+      weight: 3
+    - name: Writeups
+      url: writeups/
+      weight: 3
+    - name: Archives
+      url: archives/
+      weight: 4
+    - name: Tags
+      url: tags/
+      weight: 5
+
+params:
+  env: production
+  homeInfoParams:
+    Title: Hi 👋 I am Prasant
+    Content: Developer | Security Enthusiast | CTF Player
+  
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/4lch3mis7"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/4lch3mis7"
+    - name: "x"
+      url: "https://x.com/4lch3mis7"
+  
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToC: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
