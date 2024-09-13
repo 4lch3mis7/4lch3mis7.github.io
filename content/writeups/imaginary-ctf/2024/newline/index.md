@@ -7,9 +7,8 @@ tags:
 ---
 
 ## Challenge
-```
-Why are there so many newlines?
-```
+> Why are there so many newlines?
+
 Attachments:
 [newlines.zip](newlines.zip)
 
