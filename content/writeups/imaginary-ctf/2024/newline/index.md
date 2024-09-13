@@ -1,5 +1,6 @@
 ---
-title: "Imaginary CTF 2024: Newline"
+title: 'Imaginary CTF 2024: Newline'
+summary: 'Why are there so many newlines?'
 date: 2024-08-31T01:50:33+05:45
 ShowToC: false
 tags:

@@ -1,6 +1,7 @@
 ---
-date: '2024-09-02'
 title: 'FlagYard Training Labs: QRRR!'
+summary: 'Scan it, get it.'
+date: '2024-09-02'
 ShowToC: false
 Tags:
 - Forensics
